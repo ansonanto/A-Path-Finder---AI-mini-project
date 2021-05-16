@@ -16,3 +16,38 @@ n.
         old f and attach the lowest f to n’.
    5.4 put n’ with its f value in the right order in OPEN
 6. Go to step 2.
+
+
+
+
+After properly installing Python 2.6 and PyGame, to execute this demo:
+
+$ python path.py
+
+How to use it:
+
+Cell Placement:
+
+Place/Remove Start square       - CTRL + LEFT_CLICK
+Place/Remove Goal square        - CTRL + RIGHT_CLICK
+Place/Remove a Wall square      - SHIFT + LEFT_CLICK
+		Note: 	You can hold this down and move the cursor to place several 	
+				walls at a time
+				
+Reset Board:
+
+Clear the entire board          - ESCAPE
+Soft clear board                - BACKSPACE
+		Note:	Leaves Start, Goal and Wall squares
+		
+Find Optimal Path:
+
+Verbose Mode                    - ENTER
+Instant	                        - RIGHT_ARROW
+Step Through Path               - N
+
+Change Heuristics:
+
+"Straight Line Distance"        - SHIFT + 1
+"Manhattan Distance"            - SHIFT + 2
+"Zero" (Nothing Known)          - SHIFT + 3
